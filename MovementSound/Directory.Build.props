@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project>
+	<PropertyGroup>
+		<GTDir>D:\SteamLibrary\steamapps\common\Gorilla Tag</GTDir>
+		<PluginsPath>$(GTDir)\BepInEx\plugins</PluginsPath>
+		<ZipDir>$(SolutionDir)ReleaseZip</ZipDir>
+	</PropertyGroup>
+</Project>
