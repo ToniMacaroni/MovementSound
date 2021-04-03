@@ -26,7 +26,7 @@ namespace MovementSound
             }
 
             MovementSound.Config.Get();
-            HandPlayerPatch.SoundClip = await SoundLoader.Get().LoadClip(file.FullName);
+            HandPlayerPatch.SoundClip = await SoundLoader.LoadClip(file.FullName);
             _harmony.Patch();
         }
 
